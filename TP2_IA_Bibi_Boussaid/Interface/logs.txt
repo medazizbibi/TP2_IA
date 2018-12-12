@@ -1,0 +1,23 @@
+
+Australia
+Formalisation ajoutée
+
+Backtracking avec AC3
+{'WA': 'red', 'NT': 'green', 'SA': 'blue', 'Q': 'red', 'NSW': 'green', 'V': 'red', 'T': 'red'}
+Backtracking MRV
+{'WA': 'red', 'NT': 'green', 'SA': 'blue', 'Q': 'red', 'NSW': 'green', 'V': 'red', 'T': 'red'}
+Backtracking MRV&LCV
+{'WA': 'red', 'NT': 'green', 'SA': 'blue', 'Q': 'red', 'NSW': 'green', 'V': 'red', 'T': 'red'}
+NQueen
+Formalisation ajoutée
+
+Backtracking avec AC3
+{'Q1': 1, 'Q2': 7, 'Q3': 8, 'Q4': 14}
+Backtracking MRV&LCV
+{'Q1': 1, 'Q2': 7, 'Q3': 8, 'Q4': 14}
+Backtracking HDV
+{'Q1': 1, 'Q2': 7, 'Q3': 8, 'Q4': 14}
+Cryptarithmetique
+Formalisation ajoutée
+
+Backtracking - Contraintes n-aires

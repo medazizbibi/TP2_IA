@@ -1,0 +1,14 @@
+def const_different(variables, values):
+    return values[0] != values[1]
+
+constraints = [
+    (('WA', 'NT'), const_different),
+    (('WA', 'SA'), const_different),
+    (('SA', 'NT'), const_different),
+    (('SA', 'Q'), const_different),
+    (('NT', 'Q'), const_different),
+    (('SA', 'NSW'), const_different),
+    (('Q', 'NSW'), const_different),
+    (('SA', 'V'), const_different),
+    (('NSW', 'V'), const_different),
+]

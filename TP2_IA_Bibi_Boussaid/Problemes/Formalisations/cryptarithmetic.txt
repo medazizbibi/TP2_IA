@@ -1,0 +1,14 @@
+variables = ('F', 'T', 'U', 'W', 'R', 'O', 'C_10', 'C_100', 'C_1000')
+
+domains = dict((v, list(range(1, 10))) for v in variables)
+
+def const_different(variables, values):
+    return len(values) == len(set(values))
+
+constraints = [
+    (('F', 'T', 'U', 'W', 'R', 'O'), const_different),
+    (('O', 'R', 'C_10'), lambda vars_, values: values[0] + values[0] == values[1] + 10 * values[2]),
+    (('C_10', 'W', 'U', 'C_100'), lambda vars_, values: values[0] + values[1] + values[1] == values[2] + 10 * values[3]),
+    (('C_100', 'T', 'O', 'C_1000'), lambda vars_, values: values[0] + values[1] + values[1] == values[2] + 10 * values[3]),
+    (('C_1000', 'F'), lambda vars_, values: values[0] == values[1])
+]
